@@ -10,8 +10,8 @@ Prototype Refactor
 class GameObject {
     constructor(attr) {
         this.createdAt = attr.createdAt,
-            this.name = attr.name,
-            this.dimensions = attr.dimensions;
+        this.name = attr.name,
+        this.dimensions = attr.dimensions;
     }
     destroy() {
         return `${this.name} was removed from the game.`;
